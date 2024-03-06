@@ -88,7 +88,8 @@
   "VoyageQueryEnginePack": {
     "id": "llama_packs/voyage_query_engine",
     "author": "Liuhong99",
-    "keywords": ["voyage", "query", "retrieval", "embeddings"]
+    "keywords": ["voyage", "query", "retrieval", "embeddings"],
+    "example": true
   },
   "VectaraRagPack": {
     "id": "llama_packs/vectara_rag",
@@ -103,7 +104,8 @@
   "ArizePhoenixQueryEnginePack": {
     "id": "llama_packs/arize_phoenix_query_engine",
     "author": "axiomofjoy",
-    "keywords": ["arize", "phoenix", "query", "engine", "index"]
+    "keywords": ["arize", "phoenix", "query", "engine", "index"],
+    "example": true
   },
   "FuzzyCitationEnginePack": {
     "id": "llama_packs/fuzzy_citation",
@@ -113,17 +115,20 @@
   "AutoMergingRetrieverPack": {
     "id": "llama_packs/auto_merging_retriever",
     "author": "jerryjliu",
-    "keywords": ["auto", "merging", "retriever", "index", "automerging"]
+    "keywords": ["auto", "merging", "retriever", "index", "automerging"],
+    "example": true
   },
   "HybridFusionRetrieverPack": {
     "id": "llama_packs/fusion_retriever/hybrid_fusion",
     "author": "jerryjliu",
-    "keywords": ["hybrid", "fusion", "retriever"]
+    "keywords": ["hybrid", "fusion", "retriever"],
+    "example": true
   },
   "QueryRewritingRetrieverPack": {
     "id": "llama_packs/fusion_retriever/query_rewrite",
     "author": "jerryjliu",
-    "keywords": ["query", "rewriting", "retriever"]
+    "keywords": ["query", "rewriting", "retriever"],
+    "example": true
   },
   "MultiDocumentAgentsPack": {
     "id": "llama_packs/multi_document_agents",
@@ -153,7 +158,8 @@
   "RagEvaluatorPack": {
     "id": "llama_packs/rag_evaluator",
     "author": "nerdai",
-    "keywords": ["rag", "evaluation", "benchmarks"]
+    "keywords": ["rag", "evaluation", "benchmarks"],
+    "example": true
   },
   "LlamaDatasetMetadataPack": {
     "id": "llama_packs/llama_dataset_metadata",
@@ -173,7 +179,8 @@
   "DenseXRetrievalPack": {
     "id": "llama_packs/dense_x_retrieval",
     "author": "logan-markewich",
-    "tags": ["retriever", "retrieval", "query", "chunking", "splitting", "parsing"]
+    "tags": ["retriever", "retrieval", "query", "chunking", "splitting", "parsing"],
+    "example": true
   },
   "SnowflakeQueryEnginePack": {
     "id": "llama_packs/snowflake_query_engine",
@@ -199,7 +206,8 @@
       "neural",
       "symbolic",
       "embedding"
-    ]
+    ],
+    "example": true
   },
   "MultiDocAutoRetrieverPack": {
     "id": "llama_packs/multidoc_autoretrieval",
@@ -236,11 +244,53 @@
   "RAGFusionPipelinePack": {
     "id": "llama_packs/query/rag_fusion_pipeline",
     "author": "jerryjliu",
-    "keywords": ["rag", "fusion", "pipeline", "query"]
+    "keywords": ["rag", "fusion", "pipeline", "query"],
+    "example": true
   },
   "AgentSearchRetrieverPack": {
     "id": "llama_packs/agent_search_retriever",
     "author": "logan-markewich",
-    "keywords": ["agent", "search", "retriever"]
+    "keywords": ["agent", "search", "retriever"],
+    "example": true
+  },
+  "ChainOfTablePack": {
+    "id": "llama_packs/tables/chain_of_table",
+    "author": "jerryjliu",
+    "keywords": ["chain", "table", "tables"]
+  },
+  "MixSelfConsistencyPack": {
+    "id": "llama_packs/tables/mix_self_consistency",
+    "author": "Disiok",
+    "keywords": ["chain", "table", "tables", "pandas", "dataframe"]
+  },
+  "MultiTenancyRAGPack": {
+    "id": "llama_packs/multi_tenancy_rag",
+    "author": "ravi03071991",
+    "keywords": ["multi-tenancy", "multi", "tenancy", "rag"]
+  },
+  "StockMarketDataQueryEnginePack": {
+    "id": "llama_packs/stock_market_data_query_engine",
+    "author": "anoopshrma",
+    "keywords": ["stock", "market","yahoo","finance","yahoo finance", "data", "query", "engine"]
+  },
+  "VannaPack": {
+    "id": "llama_packs/vanna",
+    "author": "jerryjliu",
+    "keywords": ["vanna", "sql", "ai", "text-to-sql"]
+  },
+  "SelfRAGPack": {
+    "id": "llama_packs/self_rag",
+    "author": "mmaatouk",
+    "keywords": ["self-RAG", "llm", "smart-retreiver"]
+  },
+  "InferRetrieveRerankPack": {
+    "id": "llama_packs/research/infer_retrieve_rerank",
+    "author": "jerryjliu",
+    "keywords": ["infer", "retrieve", "rerank", "retriever", "rag"]
+  },
+  "LocalRAGCLIPack": {
+    "id": "llama_packs/rag_cli_local",
+    "author": "jerryjliu",
+    "keywords": ["rag", "cli", "local"]
   }
 }

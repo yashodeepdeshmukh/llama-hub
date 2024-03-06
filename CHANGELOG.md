@@ -1,5 +1,97 @@
 # ChangeLog
 
+## v[0.0.79] - 2024-02-12
+
+### New Features
+- Ionic shopping tool (#915)
+- GeniusReader loader (#819)
+
+### Smaller Features + Bug Fixes / Nits
+- Updated Docugami loader (#771)
+- asyncio bug fix in telegram loader (#928)
+- feat: allow use of self-signed cert for MinIO server with MinioReader (#935)
+- add setup_cli.sh (oops) (#941)
+- Update README.md to fix a bug in the example (#942)
+- Added handling of filename_as_id and file_extractor to SharePointReader (#934)
+- Remove links from telegram text messages (#943)
+- SEC Filings loader bug fixes (#909)
+
+## v[0.0.78] - 2024-02-05
+
+### New Features
+- add local RAG CLI variant  (#916)
+- Simple short-form Self-RAG Pack (#907)
+
+### Smaller Features + Bug Fixes / Nits
+- fix: store the str path instead of the Path object (#917)
+- Update base.py in paged_csv (#839)
+- Fix to confluence loader documentation. (#920)
+- yahoo finance key word addition to read me file for better search experience in llamahub (#897)
+
+## v[0.0.77] - 2024-01-29
+
+### New Features
+- add infer-retrieve-rerank  pack  (#911)
+- feat/add-llama-retriver-examples (#910)
+
+### Smaller Features + Bug Fixes / Nits
+- fix tools/openai_image_generation import (#906)
+
+## v[0.0.76] - 2024-01-26
+
+### New Features
+- Convert Metaphor documentation to Exa (#896)
+- Add XML loader (#887)
+- Add Couchbase Reader (#892)
+- Support ArangoDB simple loader (#900)
+
+### Smaller Features + Bug Fixes / Nits
+- feat: add example option for llamapack library (#895)
+- fix import main_content_extractor (#891)
+- feat: example for rag evaluator pack (#882)
+- feat: example for voyage query engine pack (#880)
+- RAGatouille metadata support (#893)
+
+## v[0.0.75] - 2024-01-20
+
+### New Features
+
+- add vanna pack (#889)
+
+## v[0.0.74] - 2024-01-19
+
+### New Features
+
+- Add MangaDex loader (#870)
+
+### Bug Fixes / Nits
+
+- add timeout arg to github repo reader (#873)
+- use os.path to generate file paths (#866)
+- add args for trafilatrus loader (#872)
+
+## v[0.0.73] - 2024-01-19
+
+### New Features
+- Create stock_market_data_query_engine (#845)
+- feat: Add full site BFS scraping loader (#827)
+
+### Bug Fixes / Nits
+- update judge llm (#869)
+- add some consistent doc ids (#868)
+- add back selenium
+
+## v[0.0.72] - 2024-01-15
+
+### New Features
+- Add mix self consistency llama pack (for table QA)   (#861)
+- Add MultiTenancyRAGPack (#862)
+
+## v[0.0.71] - 2024-01-13
+
+### New Features
+-  add chain of table llamapack  (#859)
+
 ## v[0.0.70] - 2024-01-11
 
 ### New Features

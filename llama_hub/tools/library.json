@@ -51,9 +51,17 @@
     "id": "tools/graphql",
     "author": "ajhofmann"
   },
+  "IonicShoppingToolSpec": {
+    "id": "tools/ionic_shopping",
+    "author": "stewartjarod"
+  },
   "MetaphorToolSpec": {
     "id": "tools/metaphor",
     "author": "ajhofmann"
+  },
+  "ExaToolSpec": {
+    "id": "tools/exa",
+    "author": "jeffzwang"
   },
   "MultionToolSpec": {
     "id": "tools/multion",
